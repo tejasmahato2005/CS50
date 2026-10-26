@@ -1,0 +1,48 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-color: #F5E9E1;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    color: #2C2C2C;
+}
+
+.text-body-emphasis {
+    color:  #2C2C2C !important;
+}
+
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.dark-mode {
+  background-color: black !important;
+  color: white !important;
+}
+
+.profile-image {
+    width: 350px;           /* Adjust size as needed */
+    height: 350px;          /* Must be same as width */
+    border-radius: 50%;     /* Makes it circular */
+    object-fit: cover;      /* Ensures image fills the circle properly */
+    object-position: 50% 15%;
+}
+
